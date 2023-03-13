@@ -1,0 +1,68 @@
+.user-component,
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.user-component {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.user-component__column img {
+  width: 62px;
+  height: 62px;
+  margin-right: 15px;
+  border-radius: 50%;
+}
+
+.empty-background {
+  background-color: var(--white);
+}
+
+.user-component__avatar {
+  padding: 20px;
+  margin-right: 15px;
+  background-color: tomato;
+  border-radius: 50%;
+}
+
+.user-component__avatar--sm {
+  padding: 15px;
+}
+
+.user-component__avatar--xl {
+  padding: 25px;
+}
+
+.user-component__title {
+  font-size: 33px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.user-component__subtitle {
+  font-size: 25px;
+  color: #555555;
+  cursor: pointer;
+}
+
+.user-component__column:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.user-component__column:last-child span {
+  color: #555555;
+}
+
+.user-component__time {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.user-component:last-child .user-component__time {
+  font-size: 23px;
+}

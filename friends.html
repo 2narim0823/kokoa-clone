@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends - Disney Talk</title>
+  </head>
+  <body>
+    <div id="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>8:23</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fa-solid fa-heart"></i>
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Friends</h1>
+      <div class="screen-header__icons">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-solid fa-film fa-lg"></i></span>
+        <span><i class="fa-solid fa-music fa-lg"></i></span>
+        <span class="screen-header__gear">
+          <a href="settings.html"><i class="fa-solid fa-gear fa-lg"></i></a>
+          <div class="mini-badge"></div>
+        </span>
+      </div>
+    </header>
+
+    <a id="friends-display-link">
+      <i class="fa-solid fa-circle-info"></i>
+      Friends' Names Display
+      <i class="fa-solid fa-chevron-right fa-xs"></i>
+    </a>
+
+    <main class="friends-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <i
+            class="fa-regular fa-heart fa-2x user-component__avatar user-component__avatar--xl"
+          ></i>
+          <div class="user-component__text">
+            <h4 class="user-component__title">Rim</h4>
+            <!-- <h6 class="user-component__subtitle">this text whatever</h6> -->
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+
+      <div class="friends-screen__friend">
+        <div class="friends-screen__friend-header">
+          <span>Friend 4</span>
+          <i class="fa-solid fa-chevron-up fa-xs"></i>
+        </div>
+
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://i.pinimg.com/originals/68/14/a7/6814a73489b9e3b94d8031ab23c65540.png"
+              class="empty-background"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Ariel</h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div class="user-component__music">
+              <span>Part of Your World</span>
+              <i class="fa-solid fa-play"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://i.insider.com/56df5c9491058425008b50b0?width=700"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Nick</h4>
+            </div>
+          </div>
+          <div class="user-component__column"></div>
+        </div>
+
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://d.newsweek.com/en/full/1579806/frozen-olaf-summer.jpg?w=1600&h=1600&l=43&t=31&q=88&f=43e7b35508f713dcd05c2c76c964b694"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Olaf</h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div class="user-component__music">
+              <span>Let it go</span>
+              <i class="fa-solid fa-play"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://freepngimg.com/save/14388-rapunzel-free-png-image/900x884"
+              class="empty-background"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Rapunzel</h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div class="user-component__column">
+              <div class="user-component__music">
+                <span>I See the Light</span>
+                <i class="fa-solid fa-play"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="fa-solid fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">1</span>
+            <i class="fa-regular fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html">
+            <i class="fa-solid fa-magnifying-glass fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <i class="fa-solid fa-ellipsis fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="splash-screen">
+      <i class="fa-solid fa-comment"></i>
+    </div>
+
+    <div id="no-mobile">
+      <span>Your screen is too big ~</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/1e21318e0f.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

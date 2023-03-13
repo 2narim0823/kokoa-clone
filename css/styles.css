@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Single+Day&display=swap");
+
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/icon-row.css";
+@import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
+
+/* Screens */
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
+
+@font-face {
+  font-family: "Disney";
+  src: url("WaltDisney Font.ttf");
+}
+
+body * {
+  font-family: "Disney", "Single Day", cursive;
+  color: var(--white);
+}
+
+body {
+  background-color: var(--grey);
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}

@@ -1,0 +1,74 @@
+#friends-display-link {
+  display: block;
+  padding: 10px 0;
+  margin-bottom: 15px;
+  margin-top: -15px;
+  text-align: center;
+  background-color: rgb(240, 217, 255, 0.5);
+  font-size: 20px;
+}
+
+#friends-display-link i {
+  margin: 0 3px;
+  color: var(--grey);
+}
+
+.friends-screen {
+  padding: 0px var(--horizontal-space);
+}
+
+.friends-screen__friend {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 2px solid #555555;
+}
+
+.friends-screen__friend-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.friends-screen__friend-header span {
+  font-size: 25px;
+}
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--purple);
+  font-size: 120px;
+  animation: hideSplashScreen 0.4s ease-in-out forwards;
+  animation-delay: 1s;
+}
+
+.user-component__music {
+  padding: 10px;
+  background-color: var(--white);
+  opacity: 0.8;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.user-component__music i {
+  margin-left: 5px;
+  color: var(--purple);
+  opacity: 0.6;
+  cursor: pointer;
+}
